@@ -33,7 +33,7 @@ mkdir vless-checker && cd vless-checker
 
 # 2. Скачайте скрипт
 curl -O https://raw.githubusercontent.com/BrawePizza/vless-checker/master/main.py
-chmod +x checker.py
+chmod +x main.py
 
 # 3. Скачайте xray-core
 wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
@@ -42,5 +42,5 @@ chmod +x xray
 rm Xray-linux-64.zip README.md LICENSE
 
 # 4. Запустите
-python3 checker.py --single    # Однократная проверка
-python3 checker.py             # Постоянный мониторинг
+python3 main.py --single    # Однократная проверка
+python3 main.py            # Постоянный мониторинг
